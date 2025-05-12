@@ -6,7 +6,7 @@ public class ModUtils implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        
+        System.out.println("ModUtils Initializing...");
     }
 
 }
