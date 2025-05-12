@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "modutils",
+  "version": "${version}",
+  "name": "ModUtils",
+  "description": "Simple organization for different staff notification on DiamondFire",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modutils/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.sapfii.modutils.ModUtils"
+    ]
+  },
+  "mixins": [
+    "modutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
