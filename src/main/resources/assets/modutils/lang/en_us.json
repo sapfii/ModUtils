@@ -1,0 +1,15 @@
+{
+  "key.modutils.dismissReports": "Dismiss Reports",
+  "key.modutils.category": "Mod Utilities",
+  "text.config.modutils-config.title": "ModUtils Config",
+  "text.config.modutils-config.option.logDirection": "Log Direction",
+  "text.config.modutils-config.option.logDirection.tooltip": "The direction in which log messages appear in the menu chronologically.",
+  "text.config.modutils-config.option.logDirection.value.down": "Up to Down",
+  "text.config.modutils-config.option.logDirection.value.up": "Down to Up",
+  "text.config.modutils-config.option.mutePunishmentAttempts": "Mute Attempted Joins & Chat",
+  "text.config.modutils-config.option.mutePunishmentAttempts.tooltip": "Mutes messages sent when a player tried to join the server while banned, or talk while muted.",
+  "text.config.modutils-config.option.mutePunishmentAttempts.value.mute": "Mute",
+  "text.config.modutils-config.option.mutePunishmentAttempts.value.dont_mute": "Don't Mute",
+  "text.config.modutils-config.section.logs": "Mod/Admin Logs",
+  "text.config.modutils-config.section.serverMute": "Server Messages"
+}

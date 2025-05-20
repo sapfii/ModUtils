@@ -3,7 +3,7 @@
   "id": "modutils",
   "version": "${version}",
   "name": "ModUtils",
-  "description": "Simple organization for different staff notification on DiamondFire",
+  "description": "Adds multiple QOL features for Mods/Admins for the DiamondFire Minecraft server.",
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",

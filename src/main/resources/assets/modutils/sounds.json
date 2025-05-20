@@ -1,0 +1,8 @@
+{
+  "report_dismiss": {
+    "subtitle": "sound.modutils.report_dismiss",
+    "sounds": [
+      "modutils:report_dismiss"
+    ]
+  }
+}

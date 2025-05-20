@@ -6,6 +6,8 @@
   "mixins": [
   ],
   "client": [
+    "MKeyBindingAccessor",
+    "MToastManager"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -29,6 +29,11 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
+    // DevAuth
+    maven { url = "https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1" }
+
+    // owo-config
+    maven { url 'https://maven.wispforest.io/releases/' }
 }
 
 dependencies {
@@ -46,6 +51,12 @@ dependencies {
     modImplementation include("net.kyori:adventure-platform-fabric:${project.adventure_fabric_version}") {
         exclude group: "net.fabricmc.fabric-api"
     }
+
+    // DevAuth
+    modRuntimeOnly("me.djtheredstoner:DevAuth-fabric:1.2.1")
+
+    // owo-config
+    annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 }
 
 processResources {
